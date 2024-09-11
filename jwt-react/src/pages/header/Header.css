@@ -1,0 +1,33 @@
+/* Custom CSS for Navbar */
+.custom-navbar {
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid #99f2c8;
+  }
+  
+  .custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .custom-navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    background-color: #ffffff;
+    color: #1f4037 !important;
+    border-radius: 5px;
+  }
+  
+  .custom-navbar .navbar-brand:hover {
+    color: #99f2c8 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
